@@ -22,21 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="3\Lab3_Polishchuk_Vlad.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="4\Lab4_Polishchuk_Vlad.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="5\Lab5_Polishchuk_Vlad.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="2\" />
     <Folder Include="3\" />
     <Folder Include="4\" />
     <Folder Include="5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3\3_price_sqm.ipynb" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
